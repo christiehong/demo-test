@@ -11,7 +11,7 @@ template:
     - showInEditor: false
     - verticalAlign: center
     - tooltipText: ''
-    - value: this is a table of my friends
+    - value: this is a table of my friends!!!!!
     - disableMarkdown: false
     - overflowType: scroll
     - maintainSpaceWhenHidden: false
