@@ -21,7 +21,11 @@ template:
         ordered: []
     - alwaysShowPaginator: false
     - columnColors:
-        ordered: []
+        ordered:
+          - id: ''
+          - name: ''
+          - email: ''
+          - sales: ''
     - columnFrozenAlignments:
         ordered: []
     - allowMultiRowSelect: false
@@ -33,7 +37,11 @@ template:
     - showAddRowButton: false
     - nextBeforeCursor: ''
     - columnVisibility:
-        ordered: []
+        ordered:
+          - id: true
+          - name: true
+          - email: true
+          - sales: true
     - selectedPageIndex: '0'
     - rowColor:
         array: []
@@ -82,7 +90,7 @@ template:
     - columnMappersRenderAsHTML:
         ordered: []
     - showRefreshButton: true
-    - pageSize: '10'
+    - pageSize: 5
     - useDynamicColumnSettings: false
     - actionButtonPosition: left
     - bulkUpdateAction: ''
@@ -123,7 +131,11 @@ template:
           index: null
           data: null
           columnName: null
-    - columns: []
+    - columns:
+        - id
+        - name
+        - email
+        - sales
     - freezeActionButtonColumns: false
     - sort: null
     - calculatedColumns: []
