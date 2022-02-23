@@ -11,7 +11,7 @@ template:
     - showInEditor: false
     - verticalAlign: center
     - tooltipText: ''
-    - value: this is a table of my friends!!!!!
+    - value: this is an awesome table full of very important information
     - disableMarkdown: false
     - overflowType: scroll
     - maintainSpaceWhenHidden: false
@@ -19,7 +19,7 @@ style:
   ordered: []
 position2:
   position2:
-    row: 0.6
+    row: 9.4
     height: 0.6
     width: 3
-createdAt: 2022-02-10T18:01:34.464Z
+createdAt: 2022-02-23T16:47:08.235Z
